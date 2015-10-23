@@ -1,0 +1,4 @@
+<h1>Payment</h1>
+<p>
+  A <%= @years.round %> year loan of $<%= @principal.round %>,with an annual interest rate of <%= @apr/10 %>%, requires a monthly payment of <%= number_to_currency(@monthly_payment) %>
+</p>
